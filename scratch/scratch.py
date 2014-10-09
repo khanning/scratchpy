@@ -14,7 +14,7 @@ class Scratch(object):
 
     msg_types = set(['broadcast', 'sensor-update'])
 
-    def __init__(self, host='localhost', port=42001):
+    def __init__(self, host='', port=42001):
 	self.host = host
 	self.port = port
 	self.socket = None
